@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PowLet</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_mobile_number">MobileNumber</string>
+    <string name="title_activity_creadit_tokens">CreaditTokens</string>
+    <string name="title_activity_puchasis_history">PuchasisHistory</string>
+    <string name="title_activity_fault_reporting">Fault Reporting</string>
+    <string name="title_activity_bank_card">BankCard</string>
+    <string name="web_api">AIzaSyDpFnEA1h0DTM73PYLmNWBShLQkdwvbQlw</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="server_key">AAAA4u7j5m4:APA91bGEReBmiBtCmbe_zEEeqBTqNFTgBszZTXSc4uF9VBUKloxUyv-RDRlR9wujn3mdYFWwKcOz4dv9xxvK9V9jwVRCj-YrYbrfsNJT8kT3SKuSjC47jyxY6v0-degmM816Q8P0RP_6</string>
+    <string name="Legacy_server_key">AIzaSyBdglzLML61yl2tYDpyiBnh37x-waWbRZs</string>
+</resources>

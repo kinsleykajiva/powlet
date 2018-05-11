@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "974670521966",
+    "firebase_url": "https://powlet-55731.firebaseio.com",
+    "project_id": "powlet-55731",
+    "storage_bucket": "powlet-55731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974670521966:android:91d423262a12b542",
+        "android_client_info": {
+          "package_name": "shepherdsithole.com.powlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974670521966-tutseptgg89ueof11vhbs4ldn1v0kn75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTcR27r17C_SiH0V_P8Ye1kZgGDZp-eks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

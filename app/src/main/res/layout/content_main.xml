@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="shepherdsithole.com.powlet.activities.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Welcome To ElecricityApp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:id="@+id/mobile_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+
+
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingStart="12dp">
+
+                        <TextView
+                            android:id="@+id/recycle_date_time"
+                            android:layout_width="238dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Mobile Number"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            tools:text="Mobile Number"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_toEndOf="@+id/linearLayout2"
+                        android:layout_toRightOf="@+id/linearLayout2"
+                        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey"/>
+
+                <RelativeLayout
+
+                    android:id="@+id/bank_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+
+
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingStart="12dp">
+
+                        <TextView
+                            android:id="@+id/recycle_date_time1"
+                            android:layout_width="238dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Bank Card"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            tools:text="Bank Card"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_toEndOf="@+id/linearLayout3"
+                        android:layout_toRightOf="@+id/linearLayout3"
+                        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey"/>
+
+                <RelativeLayout
+
+                    android:id="@+id/wallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+
+
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingStart="12dp">
+
+                        <TextView
+                            android:id="@+id/recycle_date_time4"
+                            android:layout_width="238dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Wallet"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            tools:text="Wallet"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_toEndOf="@+id/linearLayout4"
+                        android:layout_toRightOf="@+id/linearLayout4"
+                        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey"/>
+
+                <RelativeLayout
+
+                    android:id="@+id/electricity"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+
+
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingStart="12dp">
+
+                        <TextView
+                            android:id="@+id/recycle_date_time5"
+                            android:layout_width="238dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Electricity Usage"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            tools:text="Electricity Usage"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_toEndOf="@+id/linearLayout5"
+                        android:layout_toRightOf="@+id/linearLayout5"
+                        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey"/>
+
+                <RelativeLayout
+
+                    android:id="@+id/fault_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="4dp"
+
+
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingStart="12dp">
+
+                        <TextView
+                            android:id="@+id/recycle_date_time6"
+                            android:layout_width="238dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Fault Report"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            tools:text="Fault Report"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_toEndOf="@+id/linearLayout6"
+                        android:layout_toRightOf="@+id/linearLayout6"
+                        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
